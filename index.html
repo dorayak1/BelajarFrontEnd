@@ -5,24 +5,30 @@
     </head>
 
     <body>
-        <img src="http://cdn2.tstatic.net/tribunnews/foto/bank/images/nomor-punggung-gerrard-di-liverpooll_20151231_153637.jpg" alt="nomor punggung 8"><ol>
-        <li><h2>Biografi</h2></li>
-       <p>Vincent, lahir dan besar di Medan dan pernah menjadi mahasiswa Interior Design</p>
-       <p>sekarang mengeluti bidang furniture</p>
-
-       <li><h2>Latar Belakang Pemrograman</h2></li>
-       <p><b>NIHIL</b></p>
-
-       <li><h2>Tujuan Belajar Pemrograman</h2></li>
-       <p>Unuk membuka wawasan dan mengetahui cara-cara pemrograman dasar</p>
-
-
-
-
-
-
-
-    </ol>
+<h1>Form Pendaftaran Mahasiswa Baru</h1>
+        
+            <form  method="POST" action="https://formspree.io/v_max_v808@yahoo.com">
+           
+           <h2>Data Pribadi</h2>
+           Nama Depan:<br>
+            <input type="text" name="firstname"><br>
+            <br>
+           Nama Belakang:<br>
+            <input type="text" name="lastname"><br>
+            <br>
+            
+           Jenis Kelamin<br>
+                <input type="radio" name="gender" value="male" checked> Male<br>
+                <input type="radio" name="gender" value="female"> Female<br><br>
+        
+            Tempat tanggal Lahir:<br>
+            <input type="text" name="city"> <input type="date" name="bday"><br><br>
+            
+            Asal Sekolah:<br>
+            <input type="text" name="name">
+                <br><br>
+                <input type="submit" value="Submit">    
+          </form> 
     </body>
 
 
